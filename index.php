@@ -1,6 +1,7 @@
 <?php 
 	$pageTitle="Главная страница";
 	include("./templates/_head.php"); 
+	require("./config.php");
 ?>
 
 	<!-- white-plate -->
@@ -17,9 +18,12 @@
 				<div class="col-md-9 col-lg-10">
 					<div class="row">
 
+						 
+
 						<!-- Товар 1 -->
 						<?php 
-							for ($i=1; $i<=5; $i++) {
+							include("./dbwork.php");
+							foreach ($products as $product) {
 								include("./templates/_product-item.php");
 							}
 						?>
