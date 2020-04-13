@@ -8,7 +8,7 @@
         <div class="col-sm-6">
             <div class="admin-link">
                 <!-- <i class="fas fa-unlock-alt"></i> -->
-                <a href="./login.html">
+                <a href="./login.php">
                     <img width="38" src="img/icons/padlock.svg" alt="">
                 </a>
             </div>
